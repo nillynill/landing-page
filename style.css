@@ -1,0 +1,190 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{   
+    font-family: "Roboto", sans-serif;
+    text-align: center;   
+}
+
+
+
+.header{
+    background-color: #1F2937;
+    height: 440px;
+}
+
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 175px 75px 175px;    
+}
+
+
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    /*font-weight: 700;*/
+}
+
+
+
+.link-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+
+
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 175px 0px 175px;
+}
+
+
+
+.header-bottom img {
+    height: 230px;
+    width: 405px;
+}
+
+
+
+.slogan-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 530px;
+}
+
+.slogan{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    text-align: left;
+}
+
+.slogan-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+}
+
+.slogan-button{
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px; 
+}
+
+
+
+.info{
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    height: 384px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1088px;
+    justify-content:space-between;
+    gap: 10px;
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    height: 320px;
+    padding: auto 100px;
+}
+
+.quote-source{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.action{
+    text-align: left;
+    background-color: #3882F6; 
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 768px;
+    height: 112px;
+    margin: 72px auto;
+    padding: 30px 72px;
+}
+
+.action-button{
+    
+    background-color: #3882F6; 
+    color: #F9FAF8; 
+    font-weight: 700; 
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+
+    /*.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 80px;
+    
+}
