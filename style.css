@@ -38,7 +38,7 @@ body{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    /*font-weight: 700;*/
+    font-weight: 500;
 }
 
 
@@ -87,11 +87,15 @@ a{
     text-align: left;
 }
 
+
+
 .slogan-subtext{
     font-size: 18px;
     color: #E5E7EB;
     text-align: left;
 }
+
+
 
 .slogan-button{
     background-color: #3882F6;
@@ -107,53 +111,98 @@ a{
 
 
 .info{
-    
+    height: 429px;
+}
+
+
+
+h1{
     font-size: 36px;
+    padding: 40px 0px;
     color: #1F2937;
     font-weight: 900;
-    height: 384px;
 }
 
-.image-container{
+
+.info-images{
     display: flex;
     justify-content: center;
-    max-width: 1088px;
-    justify-content:space-between;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 40px;
+    
     
 }
 
+
+
+.info-images img{
+    border-radius: 10px;    
+}
+
+
+
+figcaption{
+    font-size: 18px;
+    width: 150px;
+    text-wrap: wrap;
+}
+
+
+
+.quote-container{
+    height: 358px;
+    background-color: #E5E7EB;   
+}
+
+
+
 .quote{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    height: 320px;
-    padding: auto 100px;
+    max-width: 750px;
+    padding: 90px 205px 0px 320px;
+    text-align: start;
 }
+
+
 
 .quote-source{
     color: #1F2937;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 350px;
 }
 
-.action{
-    text-align: left;
-    background-color: #3882F6; 
-    color: #F9FAF8;
-    border-radius: 5px;
-    width: 768px;
-    height: 112px;
-    margin: 72px auto;
-    padding: 30px 72px;
+
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 286px;
 }
+
+
+
+.action{
+    background-color: #3882F6; 
+    border-radius: 6px;
+    color: #F9FAF8; 
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+    width: 900px;
+    text-align: left; 
+    margin: 0px auto;    
+}
+
+
 
 .action-button{
     
@@ -161,22 +210,10 @@ a{
     color: #F9FAF8; 
     font-weight: 700; 
     border: 2px solid white;
-    border-radius: 7px;
+    border-radius: 6px;
     width: 100px;
     height: 30px;
-
-    /*.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}*/
-    
+    margin-left: 100px;   
 }
 
 .footer{
@@ -185,6 +222,6 @@ a{
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
-    height: 80px;
+    height: 90px;
     
 }
