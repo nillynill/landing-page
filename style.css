@@ -237,6 +237,7 @@ figcaption{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -291,6 +292,7 @@ figcaption{
      
         padding: 3px 8px 6px 8px;
     }
+
 }
 
 
