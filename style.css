@@ -277,10 +277,19 @@ figcaption{
     margin: 20px 0px;
 }
 
+.reality h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
 @media (max-width:768px) {
     .blue{
         padding: 30px 10px;
+    }
+
+    .action-button{ 
+     
+        padding: 3px 8px 6px 8px;
     }
 }
 
