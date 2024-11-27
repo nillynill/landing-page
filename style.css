@@ -278,6 +278,12 @@ figcaption{
 }
 
 
+@media (max-width:768px) {
+    .blue{
+        padding: 30px 10px;
+    }
+}
+
 
 
 
